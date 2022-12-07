@@ -1,1 +1,1 @@
-Working with AWS S3 with Python.
+Working with AWS S3 in Python.
