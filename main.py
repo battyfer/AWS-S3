@@ -69,7 +69,8 @@ for file in files:
 
 
 
-hash - string 
-bytes - bytes 
-hash_list - list of string 
-byte_list - list of bytes 
+# hash - string 
+# bytes - bytes 
+# hash_list - list of string 
+# byte_list - list of bytes 
+

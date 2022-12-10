@@ -3,7 +3,7 @@ import boto3
 # Create an S3 client
 s3 = boto3.client('s3')
 
-bucketName = 'battyfer-2'
+bucketName = 'battyfer'
 
 # Create the bucket
 response = s3.create_bucket(Bucket = bucketName)
@@ -87,9 +87,15 @@ def chunk_exists(hash):
 
 put_chunk('1234567890abcdef', b'Hello, world!')
 get_chunk('1234567890abcdef')
-get_chunk('1234567890abcdef')
+get_chunk('1234567890')
 print(chunk_exists('1234567890abcdef'))
 print(chunk_exists('1234567890abcdef324'))
+
+
+
+
+
+
 
 
 
